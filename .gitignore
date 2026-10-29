@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 打包产物
+*.zip
+dist/
+
+# 市场安装元数据（每台机器不同，不入库）
+_skillhub_meta.json
+_knot_meta.json
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地测试数据
+_test/
+*.local.json
